@@ -441,7 +441,7 @@ Air-Quality-Analysis/
 ### 1. Clone the repository
 
 ```bash
-
+https://github.com/ratulabid/Air-Quality-Analysis
 ```
 
 ### 2. Open the project in RStudio
