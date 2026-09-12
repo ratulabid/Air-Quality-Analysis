@@ -409,22 +409,24 @@ Air-Quality-Analysis/
 ├── README.md
 │
 ├── R/
-│   ├── 01_data_cleaning.R
-│   ├── 02_eda.R
-│   ├── 03_correlation.R
-│   ├── 04_regression.R
-│   ├── 05_time_analysis.R
-│   ├── 06_anomaly_detection.R
-│   ├── 07_feature_engineering.R
-│   ├── 08_modeling.R
-│   └── 09_model_evaluation.R
+│   ├── 01_data_understanding.R
+│   ├── 02_data_quality.R
+│   ├── 03_data_cleaning.R
+│   ├── 04_eda.R
+│   ├── 05_statistical_analysis.R
+│   ├── 06_time_analysis.R
+│   ├── 07_anomaly_detection.R
+│   ├── 08_feature_engineerinng.R
+│   └── 09_modeling.R
 │
 ├── plots/
-│   ├── ozone_histogram.png
-│   ├── ozone_boxplot.png
-│   ├── scatterplots.png
-│   ├── monthly_analysis.png
-│   └── actual_vs_predicted.png
+│   ├── Ozone vs Wind.png
+│   ├── Ozone vs Temperature.png
+│   ├── Ozone vs Solar Radiation.png
+│   ├── Ozone Histrogram.png
+│   ├── Ozone Boxplot.png
+│   ├── Monthly Ozone Analysis.png
+│   └── actual vs predicted.png
 │
 └── report/
     └── project_report.pdf
@@ -439,7 +441,7 @@ Air-Quality-Analysis/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ratulabid/Air-Quality-Analysis.git
+
 ```
 
 ### 2. Open the project in RStudio
