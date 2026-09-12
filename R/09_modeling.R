@@ -97,6 +97,21 @@ model_results <- data.frame(
 
 head(model_results)
 
+# Plotting Actual vs Predicted for both models
+plot(model_results$Actual, type = "o", col = "black", lwd = 2, pch = 16,
+     main = "Actual vs Predicted Ozone Levels",
+     xlab = "Test Data Index", ylab = "Ozone (ppb)",
+     ylim = c(min(model_results), max(model_results)))
+
+
+lines(model_results$Model1_Predicted, type = "o", col = "red", lwd = 2, pch = 17, lty = 2)
+
+
+lines(model_results$Model2_Predicted, type = "o", col = "blue", lwd = 2, pch = 18, lty = 2)
+
+
+legend("topright", legend = c("Actual", "Model 1 Predicted", "Model 2 Predicted"),
+       col = c("black", "red", "blue"), lwd = 2, pch = c(16, 17, 18), lty = c(1, 2, 2))
 # Observation
 # Both Model 1 and Model 2 generate predictions that differ from the actual Ozone values.
 # Model 2 generally gives more reasonable predictions for these test observations.
