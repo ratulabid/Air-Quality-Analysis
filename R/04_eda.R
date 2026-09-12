@@ -45,7 +45,7 @@ plot(airquality_clean$Temp,
 
 plot(airquality_clean$Wind,
      airquality_clean$Ozone,
-     main = "Relattonship between Wind & Ozone",
+     main = "Relationship between Wind & Ozone",
      xlab = "wind (mph)",
      ylab = "Ozone ",
      col = "hotpink",
