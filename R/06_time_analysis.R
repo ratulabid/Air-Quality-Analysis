@@ -3,7 +3,7 @@
 unique(airquality_clean$Month)
 unique(airquality_clean$Day)
 
-
+dates <- seq(from = as.Date("1973-05-01"), to = as.Date("1973-09-30"), by = "day")
 # How does Ozone change across the days in the dataset?
 
 plot(dates,
