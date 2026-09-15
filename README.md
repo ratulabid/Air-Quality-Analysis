@@ -416,10 +416,10 @@ Air-Quality-Analysis/
 │   ├── 05_statistical_analysis.R
 │   ├── 06_time_analysis.R
 │   ├── 07_anomaly_detection.R
-│   ├── 08_feature_engineerinng.R
+│   ├── 08_feature_engineering.R
 │   └── 09_modeling.R
 │
-├── plots/
+├── Plots/
 │   ├── Ozone vs Wind.png
 │   ├── Ozone vs Temperature.png
 │   ├── Ozone vs Solar Radiation.png
